@@ -1,0 +1,28 @@
+<div id="myModal" class="modal fade " role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p><img src={{message}} width="50%" height="auto" style="margin:0 auto; display:block">  </p>
+      </div>
+      <div class="modal-footer">
+        <button id="myModal_close" type="button" class="btn btn-default" data-dismiss="modal">{{modal_agree}}</button>
+       </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.min.js"></script>
+<script type="text/javascript">
+
+    setTimeout(function(){
+         $('#myModal').modal('show');
+        }, 1000);
+    $('#myModal_close').click(function()
+    {
+        $('#myModal').modal('hide');
+    });
+    $('#myModal').click(function(e)
+        {
+        $('#myModal').fadeOut();
+    });
+</script>
