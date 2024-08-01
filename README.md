@@ -1,13 +1,12 @@
-# Modal window for Opencart 3.x test task
+# Modal window for Opencart 3.x
 
+### Installation
 
-### Установка
+Upload `admin` and `catalog` to the root of your OpenCart installation.
 
-Загрузить admin и catalog в корень opencart
+### Module Configuration
 
-### Настройка модуля
-
-1. Перейти в настройки модуля "Extentions" -> "Modules".
-Выбрать "Modal Window for test task" и установить его.
-2. Указать путь к нужному изображению и по необходимости установит другой айди попапа
-3. Добавить попап в нужный макет ("Design" -> "Layouts" -> ...)
+1. Go to module settings "Extensions" -> "Modules".
+   Select "Modal Window for test task" and install it.
+2. Specify the path to the desired image and, if necessary, set a different popup ID.
+3. Add the popup to the desired layout ("Design" -> "Layouts" -> ...).
